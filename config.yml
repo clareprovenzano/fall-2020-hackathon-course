@@ -1,0 +1,16 @@
+title: FALL 2020 HACKATHON
+description: fall 2020 hackathon
+template:
+  repo: fall-2020-hackathon-template
+  name: fall-2020-hackathon
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
